@@ -21,16 +21,45 @@
 ### JavaScript = ECMAScript + DOM + BOM ###
 * ECMAScript 定义了脚本语言的所有属性、方法和对象。它是 JavaScript 的一部分，也可以是其他语言的一部分，比如：Flash 中的 ActionScript。
 * DOM - 文档对象模型( Document Object Model )，一个与系统平台和编程语言无关的、中立的应用程序编程接口( API )，允许程序通过接口访问并更改文档的内容、结构和样式。
-* BOM - 浏览器对象模型( Browser Object Model )
+* BOM - 浏览器对象模型( Browser Object Model )。
 
 ### JavaScript 语法基本要素 ###
-* 区分大小写
-* 常量不区分类型
-* 每条语句结尾可以省略分号
-* 注释与 C、C++、Java、PHP 相同
-* 代码段要封闭
+* 区分大小写。
+* 常量不区分类型。
+* 每条语句结尾可以省略分号。
+* 注释与 C、C++、Java、PHP 相同。
+* 代码段要封闭。
 
-###  ###
+### JavaScript 数据类型 ###
+* 字符串 - String
+* 数字 - Number
+* 布尔值 - Boolean
+* 数组 - Array
+* 对象 - Object
+* Null
+* undefined
+* NaN
+
+### JavaScript 内置对象 ###
+* String
+* Number
+* Boolean
+* Array
+* Object
+* 正则表达式对象 - RegExp
+* 日期对象 - Date
+* 函数对象 - Function
+* 静态数学对象 - Math
+
+> 注意
+* Null 和 undefined 没有对应的内置对象，只在赋值和对比时使用。
+* 除了 Math 对象，其他内置对象都可以用 new 关键字调用。
+* 常见的 window 对象和 document 对象不是 JavaScript 内置对象，而由浏览器 BOM 和 DOM 提供，在 Node.js 等非浏览器环境下是无法调用的。
+* 单双引号都可以用来定义字符串对象。
+* NaN - Not a Number，主要用于处理计算中出现的错误情况。
+* Boolean 对象初始化值为 0、-0、null、""、false、undefined、NaN 时，对象值就是 false，反之则为 true。
+* 对象通过中括号运算符能够创建任意名称的对象成员。
+
 ***
 > Part02 -
  HTML5 热门特性
