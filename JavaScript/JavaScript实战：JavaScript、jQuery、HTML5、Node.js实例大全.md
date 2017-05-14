@@ -5,7 +5,8 @@
 * [Part04](#Part04 "JavaScript 后端开发功能 - Node.js")
 
 ## Part01 ##
-> _JavaScript 基础知识_
+* JavaScript 基础知识
+
 #### 标准不过是为了竞争而存在的武器 ####
 > 明白标准制定的目的。
 
