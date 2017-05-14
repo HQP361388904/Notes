@@ -5,10 +5,10 @@
 * [Part04](#Part04 "JavaScript 后端开发功能 - Node.js")
 
 ## Part01 ##
-> JavaScript 基础知识
+#### JavaScript 基础知识 ####
 
 ### 标准不过是为了竞争而存在的武器 ###
-> _明白标准制定的目的。_
+> 明白标准制定的目的。
 
 ### 动态语言和静态语言 ###
 * 静态类型语言，结构非常规范，便于调试，类型安全，效率高。比如：C、C++。
@@ -51,15 +51,22 @@
 * 函数对象 - Function
 * 静态数学对象 - Math
 
-> 注意
-* Null 和 undefined 没有对应的内置对象，只在赋值和对比时使用。
-* 除了 Math 对象，其他内置对象都可以用 new 关键字调用。
-* 常见的 window 对象和 document 对象不是 JavaScript 内置对象，而由浏览器 BOM 和 DOM 提供，在 Node.js 等非浏览器环境下是无法调用的。
-* 单双引号都可以用来定义字符串对象。
-* NaN - Not a Number，主要用于处理计算中出现的错误情况。
-* Boolean 对象初始化值为 0、-0、null、""、false、undefined、NaN 时，对象值就是 false，反之则为 true。
-* 对象通过中括号运算符能够创建任意名称的对象成员。
+#### 注意 - 20170514 ####
+1. Null 和 undefined 没有对应的内置对象，只在赋值和对比时使用。
+2. 除了 Math 对象，其他内置对象都可以用 new 关键字调用。
+3. 常见的 window 对象和 document 对象不是 JavaScript 内置对象，而由浏览器 BOM 和 DOM 提供，在 Node.js 等非浏览器环境下是无法调用的。
+4. 单双引号都可以用来定义字符串对象。
+5. NaN - Not a Number，主要用于处理计算中出现的错误情况。
+6. Boolean 对象初始化值为 0、-0、null、""、false、undefined、NaN 时，对象值就是 false，反之则为 true。
+7. 对象通过中括号运算符能够创建任意名称的对象成员。
 
+#### 疑问 - 20170514 ####
+1. 取整同时转成数值型
+> `"10.567890"|0 === 10`
+2. 日期转数值
+> `+new Date() === new Date().getTime()`
+3. a, b 交换数值
+> `var a = 1, b = 2; a = [b, b = a][0];`
 ***
 > Part02 -
  HTML5 热门特性
