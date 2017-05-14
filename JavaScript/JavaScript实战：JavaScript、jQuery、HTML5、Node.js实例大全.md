@@ -70,13 +70,3 @@
 
 3. a, b 交换数值
 <br> `var a = 1, b = 2; a = [b, b = a][0];`
-
-***
-> Part02 -
- HTML5 热门特性
-***
-> Part03 -
- Canvas
-***
-> Part04 -
- JavaScript 后端开发功能 - Node.js
