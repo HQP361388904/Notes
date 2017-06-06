@@ -33,6 +33,7 @@ p:matches(.alert, .error, .warn) { color: red;}
 
 #### 测试 ####
 在网站 [css-selectors.com](http://css4-selectors.com/) 上可以测试你的浏览器是否支持这些选择器和其他高级选择器。另外你也可以找到要添加的选择器。
+<br>
 
 ## CSS混合模式 ##
 该规范将混合模式适用于背景以及浏览器HTML页面里的任何元素。
