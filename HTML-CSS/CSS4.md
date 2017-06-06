@@ -77,7 +77,7 @@ p:matches(.alert, .error, .warn) { color: red;}
 * IE浏览器支持CSS混合模式
 * Safari和Firefox紧追其后
 * Opera和Chrome尚在实验阶段
-> 只要在那些暂时不支持这项规范的浏览器中有向后兼容方案 —— ** 在Photoshop中完成图片的制作，然后将其替代CSS的效果 **，不至于留下一堆乱七八糟的东西，就可以小心地使用这一规范，提升设计层次。
+> 只要在那些暂时不支持这项规范的浏览器中有向后兼容方案 —— <strong> 在Photoshop中完成图片的制作，然后将其替代CSS的效果 </strong>，不至于留下一堆乱七八糟的东西，就可以小心地使用这一规范，提升设计层次。
 
 #### 知识补给 ####
 * [CSS的混合模式和规范](https://drafts.fxtf.org/compositing-1/)
